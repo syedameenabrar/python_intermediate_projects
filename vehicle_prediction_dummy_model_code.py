@@ -1,3 +1,24 @@
+# Price Prediction for Used Vehicles
+# 💡 Goal: Predict the price of second-hand vehicles based on input data.
+
+# To predict the price of used vehicles, you'll need a Flask API where you send vehicle details via Postman, and it returns the predicted price. Here’s a step-by-step approach:
+
+# Steps:
+# Train a model (for simplicity, we'll use a dummy model here).
+# Create a Flask API.
+# Send vehicle details in Postman.
+# Get the predicted price.
+
+# 🔥 How to Run the Flask API
+# Install dependencies:
+
+# pip install flask numpy pickle
+# Run the Flask server:
+
+# python app.py
+# Your API will be live at http://127.0.0.1:5000/predict
+
+
 import numpy as np
 import pickle
 from flask import Flask, request, jsonify
