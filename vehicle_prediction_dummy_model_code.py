@@ -19,6 +19,21 @@
 # Your API will be live at http://127.0.0.1:5000/predict
 
 
+# body in Postman
+
+# {
+#   "year": 2018,
+#   "mileage": 18.5,
+#   "brand": "Hyundai",
+#   "fuel_type": "Diesel"
+# }
+
+# Response 
+
+# {
+#   "predicted_price": 536000
+# }
+
 import numpy as np
 import pickle
 from flask import Flask, request, jsonify
